@@ -180,6 +180,8 @@ section {
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
+    min-height: 600px;
+    height: 100%;
 }
 
 .service-card:hover {
@@ -195,12 +197,15 @@ section {
 
 .service-card h2 {
     margin-bottom: 1rem;
+    margin-top: 0;
     color: var(--white);
+    line-height: 1.2;
 }
 
 .service-description {
     color: var(--matte-sage);
     margin-bottom: 2rem;
+    min-height: 4.5rem;
 }
 
 .service-list {
@@ -215,6 +220,7 @@ section {
     position: relative;
     color: var(--white);
     font-size: 0.95rem;
+    line-height: 1.5;
 }
 
 .service-list li::before {
